@@ -31,7 +31,9 @@ def complete(request: CompletionRequest):
         request.prompt,
         max_new_tokens=request.max_tokens,
         temperature=request.temperature,
-        do_sample=True
+        do_sample=True,
+        repetition_penalty=1.2,
+        top_p=0.9,
     )[0]["generated_text"]
 
     return {
