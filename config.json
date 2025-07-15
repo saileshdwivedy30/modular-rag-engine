@@ -1,0 +1,9 @@
+{
+    "data_dir": "/Users/swetapati/Desktop/Projects/modular-rag-engine/data",          
+    "chunk": 
+    {
+      "max_tokens": 1024,
+      "overlap": 64
+    }
+}
+  

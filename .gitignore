@@ -1,3 +1,5 @@
+cloudrag/
+
 # Python artifacts
 __pycache__/
 *.pyc
