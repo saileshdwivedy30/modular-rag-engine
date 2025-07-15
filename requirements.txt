@@ -1,0 +1,5 @@
+pydantic>=1.10
+pdfminer.six>=202211
+tiktoken>=0.5.2
+pytest  # dev-only
+pytest-cov  # dev-only
